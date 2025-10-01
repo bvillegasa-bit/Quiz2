@@ -1,0 +1,68 @@
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;   
+    
+}
+.divGeneral{
+    width: 100%;
+    color: #fffdfd;
+    border: 0px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f63158;
+}
+.divGeneral>h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divServicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    background-color: #111011;
+    flex-direction: column;
+    color: #fffdfd;
+}
+.divServicios>div>h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divContenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divContenedor>div{
+    width: 31%;
+    gap: 60px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedorNaranja{
+    background-color: #d3691e;
+    color: #f8e7db;
+}
+    
